@@ -1,0 +1,282 @@
+BODY {
+	TEXT-ALIGN: center
+}
+FORM {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+TD {
+	FONT-SIZE: 12px
+}
+A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.menu1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FILTER: DropShadow(Color=#0071AF, OffX=1, OffY=1, Positive=1); COLOR: #ffffff; PADDING-TOP: 4px
+}
+.menu1 A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FILTER: DropShadow(Color=#0071AF, OffX=1, OffY=1, Positive=1); COLOR: #ffffff; PADDING-TOP: 4px
+}
+.menu1 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FILTER: DropShadow(Color=#0071AF, OffX=1, OffY=1, Positive=1); COLOR: #ffffff; PADDING-TOP: 4px
+}
+.menu1 A:hover {
+	COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.menu2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0468cd
+}
+.menu2 A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0468cd
+}
+.menu2 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0468cd
+}
+.menu3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff9900
+}
+.menu3 A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff9900
+}
+.menu3 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff9900
+}
+.menu4 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 10px; PADDING-TOP: 4px
+}
+.menu4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000
+}
+.menu4 A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000
+}
+.menu4 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000
+}
+.menu5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; PADDING-TOP: 2px
+}
+.menu5 A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; PADDING-TOP: 2px
+}
+.menu5 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; PADDING-TOP: 2px
+}
+.border1 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.gray {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #9c9c9c
+}
+.gray A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #9c9c9c
+}
+.gray A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #9c9c9c
+}
+.blue1 A:link {
+	COLOR: #0066cc
+}
+.blue1 A:visited {
+	COLOR: #0066cc
+}
+.blue3 A:link {
+	COLOR: #0066cc
+}
+.blue3 A:visited {
+	COLOR: #0066cc
+}
+.blue3 TR {
+	
+}
+.black {
+	COLOR: #000000
+}
+.black A:link {
+	COLOR: #000000
+}
+.black A:visited {
+	COLOR: #000000
+}
+.red {
+	COLOR: #ff0000
+}
+.red A:link {
+	COLOR: #ff0000
+}
+.red A:visited {
+	COLOR: #ff0000
+}
+.red2 {
+	COLOR: #ff9900
+}
+.red2 A:link {
+	COLOR: #ff9900
+}
+.red2 A:visited {
+	COLOR: #ff9900
+}
+.line1 {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(I_140.gif); BACKGROUND-REPEAT: repeat-x
+}
+.line2 {
+	BACKGROUND-POSITION: left 50%; BACKGROUND-IMAGE: url(bg02.gif); BACKGROUND-REPEAT: repeat-y
+}
+.div1 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND-IMAGE: url(I_113.gif); MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 3px; WIDTH: 189px; PADDING-TOP: 3px
+}
+.div2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; WIDTH: 100%; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffffff
+}
+.div3 {
+	MARGIN-TOP: 2px; FLOAT: right; VERTICAL-ALIGN: middle; WIDTH: 84px; COLOR: #0066cc; HEIGHT: 31px; TEXT-ALIGN: left
+}
+.div3 A:link {
+	MARGIN-TOP: 2px; FLOAT: right; VERTICAL-ALIGN: middle; WIDTH: 84px; COLOR: #0066cc; HEIGHT: 31px; TEXT-ALIGN: left
+}
+.div3 A:visited {
+	MARGIN-TOP: 2px; FLOAT: right; VERTICAL-ALIGN: middle; WIDTH: 84px; COLOR: #0066cc; HEIGHT: 31px; TEXT-ALIGN: left
+}
+.div4 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #f8f8f8; TEXT-ALIGN: left
+}
+.div5 {
+	BACKGROUND-IMAGE: url(bg01.gif); WIDTH: 381px
+}
+.div6 {
+	BACKGROUND-POSITION: center 50%; FLOAT: left; BACKGROUND-IMAGE: url(bg02.gif); WIDTH: 14px; BACKGROUND-REPEAT: repeat-y; ; HEIGHT: expression(this.parentElement.offsetHeight)
+}
+.div7 {
+	FLOAT: left; BACKGROUND-IMAGE: url(images/bg01.gif); WIDTH: 242px; HEIGHT: 210px
+}
+.h6px {
+	FONT-SIZE: 1px; WIDTH: 90%; HEIGHT: 6px
+}
+.h5px {
+	FONT-SIZE: 1px; WIDTH: 90%; HEIGHT: 5px
+}
+.h4px {
+	FONT-SIZE: 1px; WIDTH: 90%; HEIGHT: 4px
+}
+A.blue2:link {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 25px; WIDTH: 180px; COLOR: #0066cc
+}
+A.blue2:visited {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 25px; WIDTH: 180px; COLOR: #0066cc
+}
+A.gray2:link {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 10px; WIDTH: 150px
+}
+A.gray2:visited {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 10px; WIDTH: 150px
+}
+A.gray3:link {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 25px; WIDTH: 210px
+}
+A.gray3:visited {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 3px; MARGIN-LEFT: 25px; WIDTH: 210px
+}
+A.train1:link {
+	WIDTH: 215px; COLOR: #777777
+}
+A.train1:visited {
+	WIDTH: 215px; COLOR: #777777
+}
+A.train2:link {
+	WIDTH: 90px; COLOR: #ff8800
+}
+A.train2:visited {
+	WIDTH: 90px; COLOR: #ff8800
+}
+.px13 {
+	FONT-SIZE: 13px
+}
+.bg01 {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-TOP: 3px; HEIGHT: 20px; BACKGROUND-COLOR: #3e94d0
+}
+.bg01 A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bg01 A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bg01 A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bg01 A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.date {
+	COLOR: #a2a2a2
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px
+}
+.px14 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 150%
+}
+.webding {
+	COLOR: #999999; FONT-FAMILY: Webdings
+}
+.webding A:link {
+	COLOR: #0033cc; FONT-FAMILY: Webdings
+}
+.webding A:visited {
+	COLOR: #0033cc; FONT-FAMILY: Webdings
+}
+.webding A:active {
+	COLOR: #0033cc; FONT-FAMILY: Webdings
+}
+.jl {
+	COLOR: #0988cb
+}
+.jl A:link {
+	COLOR: #0988cb
+}
+.jl A:visited {
+	COLOR: #0988cb
+}
+.jl A:hover {
+	COLOR: #0988cb
+}
+.jian TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.menu2 A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.menu3 A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.menu4 A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.div3 A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.div4 A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.blue2:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.gray3:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.blue1 A:hover {
+	COLOR: #ff6600
+}
+.black A:hover {
+	COLOR: #ff6600
+}
+.gray A:hover {
+	COLOR: #ff6600
+}

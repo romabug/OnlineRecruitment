@@ -1,0 +1,35 @@
+/*×ó±ß±êÌâ*/
+.t_c_l{ float:left; background:url(../images/company/t_c_l.gif) no-repeat; width:185px; height:15px; padding-top:10px; padding-left:15px;}
+.t_c_l a{ font-weight:bold;}
+.t_c_l a:hover{ text-decoration:underline;}
+
+/*×ó±ßÄÚÈİ±ß¿ò*/
+.c_lm{ border:#1752a2 1px solid;}
+
+
+/*ÓÒ±ß±êÌâ*/
+.t_c_r{float:left;width:729px; padding-left:15px;height:18px; padding-top:7px;
+background:url(../images/company/t_c_r.jpg) no-repeat left; }
+.t_c_r a{ color:#1752a2; font-weight:bold;}
+
+/*ÓÒ±ßÄÚÈİ*/
+
+/*ÓÒ±ßÄÚÈİ1*/ 
+.c_main1{ float:left; width:744px;}
+
+.c_sider{ float:left; padding:0 35px 11px 35px; width:385px;}
+.c_sider img{ float:left;}
+.c_sider dl{ float:left; width:283px;  border-right:#333 1px solid; border-left:#333 1px solid;}
+.c_sider dl dt{font-size:15px; font-weight:bold; text-align:center; padding-top:3px;}
+.c_sider dl dd{line-height:23px; padding-right:13px;}
+
+
+/*ÓÒ±ßÄÚÈİ2*/
+
+.c_main2{ float:left; width:744px; padding-top:3px;}
+.c_list1{ float:left; width:88px;}
+.c_list1 ul li{ width:88px; text-align:center; }
+.c_list2 ul li{ width:190px; text-align:left; }
+.c_list1 ul li,.c_list2 ul li{ float:left;line-height:23px; height:23px;}
+.c_list2{ float:left; width:189px;}
+.list_title{margin-left:1px; background-color:#f3f3f3; text-align:center;}

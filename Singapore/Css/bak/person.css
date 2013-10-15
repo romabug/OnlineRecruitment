@@ -1,0 +1,49 @@
+.content{margin-top:3px;}
+.margin_top{ margin-top:6px;}
+/*left*/
+.person_l{ float:left; width:200px;}
+/*title*/
+.t_person_l{ float:left; background:url(../images/person/left_tbg.gif) no-repeat; width:185px; height:15px; padding-top:10px; padding-left:15px;  }
+
+
+.t_person_lk{ float:left; background:url(../images/person/left_tbg_moban.gif) no-repeat; width:198px; height:15px; padding-top:10px; padding-left:15px;  }
+
+.t_person_lk a{ font-weight:bold;  }
+.t_person_l a:hover{ text-decoration:underline;}
+
+.t_person_l a,.t_person_r1 a,.t_person_r2 a{ font-weight:bold;}
+.t_person_l a:hover{ text-decoration:underline;}
+
+.p_lm{ border:#ECEAEA 1px solid;}
+
+.p_lm2{border:#ECEAEA 1px solid;}
+.p_lm,.p_lm2{ float:left; border-top:none; width:198px;}
+
+.p_lm p,.p_lm2 p{ float:left; height:8px!important; height:32px;}
+
+.p_lm ul li,.p_lm2 ul li{ float:left; background:url(../images/index/icon2.gif) no-repeat 10px 10px; line-height:23px; height:23px; color:#999; padding-left:15px; width:180px; }
+.p_lm_w{ font-size:15px;}
+/*right*/
+.person_r{ float:right; width:744px;}
+/*title*/
+.t_person_r1{background:url(../images/person/right_1tbg.gif) no-repeat left; }
+.t_person_r2{background:url(../images/person/icon10.gif) no-repeat left;
+border-bottom:#ff6600 2px solid; margin-top:10px;}
+.t_person_r1,.t_person_r2{float:left;width:729px; padding-left:15px;height:18px; padding-top:7px;}
+
+
+.p_rm1{ float:left; border:#d3d3d3 1px solid; border-top:none; width:742px;}
+.p_line{line-height:25px;height:22px;}
+.p_rm2{ float:left; width:744px; margin-top:6px;}
+
+/*列表1*/
+.p_list1,.p_list2{ float:left; width:744px;}
+.p_list1 ul li{ float:left; width:176px; padding-left:10px;text-align:center;}
+/*列表2*/
+
+.p_list2 ul li{ float:left; width:106px; text-align:center;}
+.p_list1 ul li,.p_list2 ul li{ line-height:25px; height:25px;}
+
+.line_grey{ background-color:#f5f5f5;}
+
+

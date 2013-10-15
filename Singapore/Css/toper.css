@@ -1,0 +1,19 @@
+/*全局*/
+ 
+
+ 
+/*头部*/
+#header{ float:left; width:950px;}
+.logo{ float:left;width:250px; height:70px; padding-left:5px; padding-top:5px;}
+/*导航，目录*/
+.topright{ float:left; width:680px; height:70px;}
+.topmenu{ float:right; padding-bottom:5px;}
+.nav{ float:left; width:680px;  }
+.nav ul li{ float:right;margin-left:9px; width:98px; background:url(../Images/mainpage/nav_bg.gif) repeat-x top; text-align:center; height:22px; padding-top:8px; font-size:14px;}
+.nav ul li a{ font-weight:bold;}
+.downmenu{ float:left; padding:7px 11px 6px; width:928px; background:url(../Images/mainpage/tab_bg.jpg) repeat-x top; height:15px; color:#FFFFFF;}
+.downmenu span { color: #FFFFFF;}
+.downmenu span  a{ color: #FFFFFF;}
+.downmenu a{ color: #FFFFFF;}
+.downmenu a:hover{ color:#d2ff35; text-decoration:underline;}
+

@@ -1,0 +1,1 @@
+<a href="http://blog.fx120.net/images/asktl.swf">http://blog.fx120.net/images/asktl.swf</a>

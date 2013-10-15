@@ -1,0 +1,1335 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>新加坡劳务网 —— 出国劳务 劳务输出 新加坡招聘 劳务派遣等网站服务</TITLE>
+<SCRIPT language=JavaScript src="js/ftiens4.js"></SCRIPT>
+ 
+<SCRIPT language=JavaScript 
+src="js/persontreeviewnodes.js"></SCRIPT>
+ 
+<SCRIPT language=JavaScript 
+src="js/areacityselector.js"></SCRIPT>
+ 
+<SCRIPT language=JavaScript src="js/joball.js"></SCRIPT>
+<LINK href="favicon.ico" type=image/ico rel="shortcut icon">
+ 
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=中国最专业的新加坡劳务招聘网,提供新加坡劳务,出国劳务,劳务派遣，劳务输出,新加坡招聘,新加坡劳务人才等狮城网络人力资源服务。 
+name=description>
+
+<LINK href="Css/xjp_main.css" 
+type=text/css rel=stylesheet>
+<STYLE type=text/css>.a101 {
+	FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(Images/mainpage/mid20_bg1.gif); COLOR: #ffffff; PADDING-TOP: 3px
+}
+.a102 {
+	COLOR: #ffffff; PADDING-TOP: 3px; BACKGROUND-COLOR: #b3b3b3
+}
+.b101 {
+	FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(Images/mainpage/mid20_bg1.gif); COLOR: #ffffff; PADDING-TOP: 3px
+}
+.b102 {
+	COLOR: #ffffff; PADDING-TOP: 3px; BACKGROUND-COLOR: #b3b3b3
+}
+.c101 {
+	BACKGROUND-IMAGE: url(Images/Index/right12_bg.jpg); COLOR: #ffffff
+}
+.c102 {
+	BACKGROUND-COLOR: #efefef
+}
+.e101 {
+	BORDER-TOP: #bbdcef 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #bbdcef 1px solid; COLOR: #255ba5; BACKGROUND-COLOR: #ffffff
+}
+.e102 {
+	COLOR: #333333
+}
+.f101 {
+	FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(Images/mainpage/mid20_bg1.gif); COLOR: #ffffff; PADDING-TOP: 3px
+}
+.f102 {
+	COLOR: #ffffff; PADDING-TOP: 3px; BACKGROUND-COLOR: #b3b3b3
+}
+.STYLE4 {
+	COLOR: #ff0000
+}
+.STYLE5 {
+	COLOR: #0000ff
+}
+.STYLE6 {
+	FONT-WEIGHT: bold; COLOR: #993300
+}
+.STYLE7 {
+	COLOR: #ff6600
+}
+</STYLE>
+ 
+<SCRIPT language=JavaScript src="http://www.xjp-job.com/js/tip.js"></SCRIPT>
+ 
+<SCRIPT language=javascript> 
+function asecBoard(n) 
+{ 
+    for(i=1;i<3;i++) 
+    { 
+        eval("document.getElementById('al0"+i+"').className='a102'"); 
+        eval("abx0"+i+".style.display='none'"); 
+    } 
+    eval("document.getElementById('al0"+n+"').className='a101'"); 
+    eval("abx0"+n+".style.display='block'"); 
+} 
+function bsecBoard(n) 
+{ 
+    for(i=1;i<3;i++) 
+    { 
+        eval("document.getElementById('bl0"+i+"').className='b102'"); 
+        eval("bbx0"+i+".style.display='none'"); 
+    } 
+    eval("document.getElementById('bl0"+n+"').className='b101'"); 
+    eval("bbx0"+n+".style.display='block'"); 
+}
+function csecBoard(n) 
+{ 
+    for(i=1;i<5;i++) 
+    { 
+        eval("document.getElementById('cl0"+i+"').className='c102'"); 
+        eval("cbx0"+i+".style.display='none'"); 
+    } 
+    eval("document.getElementById('cl0"+n+"').className='c101'"); 
+    eval("cbx0"+n+".style.display='block'"); 
+} 
+function esecBoard(n) 
+{ 
+    for(i=1;i<3;i++) 
+    { 
+        eval("document.getElementById('el0"+i+"').className='e102'"); 
+        eval("ebx0"+i+".style.display='none'"); 
+    } 
+    eval("document.getElementById('el0"+n+"').className='e101'"); 
+    eval("ebx0"+n+".style.display='block'"); 
+} 
+function fsecBoard(n) 
+{ 
+    for(i=1;i<5;i++) 
+    { 
+        eval("document.getElementById('fl0"+i+"').className='f102'"); 
+        eval("fbx0"+i+".style.display='none'"); 
+    } 
+    eval("document.getElementById('fl0"+n+"').className='f101'"); 
+    eval("fbx0"+n+".style.display='block'"); 
+} 
+ 
+ 
+function js_close_div(divname){
+  //document.getElementById(divname).style.visibility = "hidden";
+  document.getElementById(divname).style.display = "none";
+}
+</SCRIPT>
+ 
+<SCRIPT language=JavaScript> 
+ function login_check()
+ {
+ 
+ if (document.login.username.value==""){
+  alert("-请输入用户名-");
+  document.login.username.focus();
+  return false;
+ }
+  if (document.login.password.value==""){
+  alert("-请输入登陆密码-");
+  document.login.password.focus();
+  return false;
+ }
+ }
+ function search_check()
+ {
+ if (document.quicksearch.btnSltFuntype1.value=="选择/修改"){
+  alert("-请选择职位类别");
+  //document.quicksearch.btnSltFuntype1.focus();
+  return false;
+ } 
+ if (document.quicksearch.btnSltArea1.value=="选择/修改"){
+  alert("-请选择地区");
+  //document.quicksearch.btnSltArea1.focus();
+  return false;
+ } 
+  if (document.quicksearch.btnSltIssuedate1.value=="选择/修改"){
+  alert("-请选择更新日期");
+  //document.quicksearch.btnSltIssuedate1.focus();
+  return false;
+ }  
+ if (document.quicksearch.key.value=="请输入关键字"){
+  alert("-请输入关键字-");
+  document.quicksearch.key.focus();
+  return false;
+ }
+ }
+</SCRIPT>
+ 
+<META content="MSHTML 6.00.6000.16809" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=container><!---header--->
+<DIV id=header>
+<DIV class=logo><IMG height=62 
+src="Images/mainpage/Logo.jpg" width=230></DIV>
+<DIV class=topright>
+<DIV class=topmenu>　　 <A title=设为首页 
+onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.xjp-job.com');" 
+href="http://www.xjp-job.com/#">设为首页</A>　|　<A title=加入收藏 
+href="javascript:window.external.AddFavorite('http://www.xjp-job.com','新加坡劳务网')" 
+target=_top>添加到收藏夹</A> </DIV>
+<DIV style="FLOAT: left; WIDTH: 500px; HEIGHT: 40px"></DIV><!---nav--->
+<DIV class=nav>
+<UL>
+  <LI><A href="http://www.xjp-job.com/service/">HR服务</A> </LI>
+  <LI><A href="http://www.xjp-job.com/life/">狮城生活</A> </LI>
+  <LI><A href="http://www.xjp-job.com/info/">劳务资讯</A> </LI>
+  <LI><A href="http://www.xjp-job.com/rencai/">意向人才库</A> </LI>
+  <LI><A href="http://www.xjp-job.com/person/">新加坡招聘</A> </LI>
+  <LI><A href="http://www.xjp-job.com/#">首 页</A> </LI></UL></DIV></DIV>
+<DIV class=downmenu><SPAN style="FLOAT: left">今天是： 2009年5月5日,星期二 </SPAN><SPAN 
+style="FLOAT: right"><A 
+href="http://www.xjp-job.com/Info/Index_More.asp?Param=48" target=_blank>人力市场 
+</A>| <A href="http://www.xjp-job.com/Info/Index_More.asp?Param=51" 
+target=_blank>劳务法规</A> | <A 
+href="http://www.xjp-job.com/Info/Index_More.asp?Param=48" 
+target=_blank>就业体验</A> | <A href="http://www.xjp-job.com/rencai/" 
+target=_blank>英才自荐</A> | <A href="http://www.xjp-job.com/Info/Employment.asp" 
+target=_blank>HR俱乐部</A> | <A href="http://www.macau69.com/" 
+target=_blank>澳门劳工招聘网</A> </SPAN></DIV></DIV><!---main内容部分--->
+<DIV id=main><!---left--->
+<DIV id=left>
+<DIV style="MARGIN-TOP: -10px; WIDTH: 745px">
+<OBJECT 
+codeBase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0 
+height=87 width=745 classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM NAME="movie" VALUE="banna/main_oriange.swf"><PARAM NAME="quality" VALUE="high">
+      <embed src="banna/main_oriange.swf" quality="high" 
+pluginspage="http://www.macromedia.com/go/getflashplayer" 
+type="application/x-shockwave-flash" width="745" height="87"></embed>
+</OBJECT></DIV><!---left1--->
+<DIV class=left_main><!---login--->
+<DIV class=login>
+<DIV class=l_t><A 
+href="http://www.xjp-job.com/Public/MemberLogin.asp">会员登录</A></DIV>
+<DIV class=login_m>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width=100 align=center border=0>
+        <FORM name=login onsubmit="return login_check();" 
+        action=Public/login.asp method=post>
+        <TBODY>
+        <TR>
+          <TD align=right width=60 height=30>用户名：</TD>
+          <TD height=30><INPUT class=input_10 style="WIDTH: 100px" size=16 
+            name=username></TD></TR>
+        <TR>
+          <TD align=right width=60 height=30>密&nbsp;&nbsp;码：</TD>
+          <TD height=30><INPUT class=input_10 style="WIDTH: 100px" 
+            type=password size=16 name=password></TD></TR>
+        <TR>
+          <TD align=right width=60 height=30>类&nbsp;&nbsp;型：</TD>
+          <TD height=30><SELECT class=input_10 style="WIDTH: 100px" 
+            name=usertype> <OPTION value=person selected>--个人会员--</OPTION> 
+              <OPTION value=company>--企业会员--</OPTION> <OPTION 
+              value=intro>--中介会员--</OPTION> <OPTION 
+              value=educate>--培训机构--</OPTION></SELECT></TD></TR>
+        <TR vAlign=bottom align=middle>
+          <TD colSpan=2 height=30><INPUT type=image height=23 width=60 
+            src="Images/Index/login.jpg" border=0 
+            name=imageField> <A 
+            href="http://www.xjp-job.com/Public/MemberLogin.asp"><IMG height=23 
+            src="Images/Index/reg.jpg" width=60 
+            border=0></A> </TD></TR>
+        <TR align=middle>
+          <TD colSpan=2 height=30><IMG height=16 
+            src="Images/icon3.gif" width=12><A 
+            href="http://www.xjp-job.com/Public/Register.asp"><FONT 
+            color=#666666> 免费注册</FONT></A> <IMG height=16 
+            src="Images/icon3.gif" width=12> <A 
+            href="http://www.xjp-job.com/Public/Get_Password.asp"><FONT 
+            color=#666666>忘记密码</FONT></A></TD></TR></FORM></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV><!---space--->
+<DIV class=space>
+<DIV class=l_t><A 
+href="http://www.xjp-job.com/Public/MemberLogin.asp">会员登记</A></DIV>
+<DIV style="MARGIN-TOP: 5px; PADDING-LEFT: 4px"><IMG 
+src="Images/mainpage/dengji.gif" useMap=#Map border=0> 
+<MAP id=Map name=Map><AREA shape=RECT coords=13,97,165,120 
+  href="http://www.xjp-job.com/Company/Register.asp"><AREA shape=RECT 
+  coords=13,68,165,92 href="http://www.xjp-job.com/Educate/Register.asp"><AREA 
+  shape=RECT coords=14,39,165,63 
+  href="http://www.xjp-job.com/Intro/Register.asp"><AREA shape=RECT 
+  coords=14,10,165,34 href="http://www.xjp-job.com/Person/Register.asp"><AREA 
+  shape=RECT coords=14,126,165,148 
+  href="http://www.xjp-job.com/Company_en/Register.asp"></MAP></DIV><!---area---></DIV>
+<DIV class=area>
+<DIV class=l_t><A href="http://www.xjp-job.com/person/">地区招聘</A></DIV>
+<DIV class=area_m>
+<UL>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1001">北京</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1002">上海</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1004">广州</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1005">深圳</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1006">武汉</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1009">成都</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1010">南京</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1013">大连</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1015">青岛</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1016">重庆</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1023">福州</A> </LI>
+  <LI><A href="http://www.xjp-job.com/----Index_Area.asp?City=1025">厦门</A> 
+</LI></UL></DIV>
+<DIV style="PADDING-LEFT: 6px; FLOAT: left; WIDTH: 90%; PADDING-TOP: 3px"><A 
+href="http://www.xjp-job.com/Company_en/Register.asp" target=_blank><IMG 
+height=71 src="Images/banna/free.gif" width=155 
+border=0></A></DIV></DIV><!---hot--->
+<DIV class=hot>
+<DIV class=l_t><A href="http://www.xjp-job.com/person/">热门职位</A></DIV>
+<DIV class=hot_m>
+<UL>
+  <LI><SPAN style="FLOAT: left"><A 
+  href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRjgwrhj6l7z8765&amp;Param=524" 
+  target=_blank>品牌服装店销售</A></SPAN> <SPAN style="FLOAT: right">10-19</SPAN> </LI>
+  <LI><SPAN style="FLOAT: left"><A 
+  href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRjgwrhj6l7z8765&amp;Param=525" 
+  target=_blank>wafer生产企</A></SPAN> <SPAN style="FLOAT: right">10-19</SPAN> 
+</LI>
+  <LI><SPAN style="FLOAT: left"><A 
+  href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRcp7sqzdelg6822&amp;Param=774" 
+  target=_blank>新加坡、阿联酋、</A></SPAN> <SPAN style="FLOAT: right">10-4</SPAN> 
+</LI></UL></DIV></DIV></DIV><!---left2--->
+<DIV class=left_main>
+<DIV class=t_left2></DIV><!---link--->
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/1.gif" 
+width=140 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Job Plus Employmen</FONT> </SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/2.gif" 
+width=140 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Adge Pte Ltd </FONT> </SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/3.gif" 
+width=140 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Kerry Consulting</FONT> </SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/4.gif" 
+width=140 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Novexx Pte Ltd</FONT> </SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/5.gif" 
+width=139 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Drake Internationa </FONT></SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/6.gif" 
+width=139 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Job Plus Employmen </FONT></SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/7.gif" 
+width=139 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>EnerPro Pte Ltd</FONT> </SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/8.gif" 
+width=139 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Capita Pte Ltd</FONT> </SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/9.gif" 
+width=139 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Quinnox Solutions</FONT> </SPAN></DIV>
+<DIV class=link><SPAN style="FLOAT: left"><!--	  
+	  <a href="Company/Info/Com_View.asp?Param=" target="_blank"><img src="UpLoadFiles/CompanyIndex/" width="139" height="35" border="0" onMouseMove="showpup(this,'')" 
+                  onmouseout="hidepup()"></a>	  --><IMG height=35 
+src="Ad_Imgs/10.gif" 
+width=139 border=0> </SPAN><SPAN class=link_w style="FLOAT: left"><FONT 
+color=#cc0000>Niche Recruitment</FONT> </SPAN></DIV></DIV><!---left3--->
+<DIV class=left3>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD class=b101 id=bl01 onmouseover=bsecBoard(1); align=middle 
+                width=130 height=26>&nbsp;&nbsp;新加坡最新招聘</TD>
+                <TD align=middle width=2><IMG height=2 src="" width=2></TD>
+                <TD class=b102 id=bl02 onmouseover=bsecBoard(2); align=middle 
+                width=130>&nbsp;&nbsp;推荐新加坡招聘</TD>
+                <TD>　</TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD bgColor=#1574b4 height=2></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD 
+    style="BORDER-RIGHT: #bbdcef 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #bbdcef 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #bbdcef 1px solid">
+      <DIV id=bbx01>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VR4i9yyyf5mk3867" 
+        target=_blank>北京师恩教育咨询有限公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VR4i9yyyf5mk3867&amp;Param=983" 
+        target=_blank>办公室文员</A> <A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VR4i9yyyf5mk3867&amp;Param=982" 
+        target=_blank>幼师</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRxc59512qh59724" 
+        target=_blank>中国江苏国际经济技术合作公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRxc59512qh59724&amp;Param=961" 
+        target=_blank>赴新加坡混凝土泵车司机</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRnomcfre9ew9408" 
+        target=_blank>沈阳东方境外就业服务中心</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRnomcfre9ew9408&amp;Param=954" 
+        target=_blank>英语销售</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VR58psyi4zdk8131" 
+        target=_blank>成都国际经济技术合作股份有限公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VR58psyi4zdk8131&amp;Param=496" 
+        target=_blank>Customer Service</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRqelzp3rys67086" 
+        target=_blank>江苏亿涛境外就业服务有限公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRqelzp3rys67086&amp;Param=755" 
+        target=_blank>新加坡半导体技术员</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRpgjyoplpxq1886" 
+        target=_blank>联发软件设计（深圳）有限公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRpgjyoplpxq1886&amp;Param=685" 
+        target=_blank>实体设计工程师 (负责芯片后段实</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRjgwrhj6l7z8765" 
+        target=_blank>科智公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRjgwrhj6l7z8765&amp;Param=524" 
+        target=_blank>品牌服装店销售</A> <A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRjgwrhj6l7z8765&amp;Param=726" 
+        target=_blank>赴新加坡注塑模具</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRcp7sqzdelg6822" 
+        target=_blank>辽宁精英网络管理信息系统有限公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRcp7sqzdelg6822&amp;Param=774" 
+        target=_blank>新加坡、阿联酋、澳门销售代表、文</A> <A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRcp7sqzdelg6822&amp;Param=513" 
+        target=_blank></A>... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRcuhs5bl4e31775" 
+        target=_blank>中国对外人才开发咨询公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRcuhs5bl4e31775&amp;Param=705" 
+        target=_blank>珠宝销售助理</A> <A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRcuhs5bl4e31775&amp;Param=704" 
+        target=_blank>运动品销售代表</A> <A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRcuhs5bl4e31775&amp;Param=703" 
+        target=_blank>美</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRkmuntrx2ri4906" 
+        target=_blank>上海泽恩企业管理咨询有限公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRkmuntrx2ri4906&amp;Param=689" 
+        target=_blank>赴新加坡高薪就业</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRs7db0dc20z5159" 
+        target=_blank>创业中国-全国大学生创业服务工程办</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRs7db0dc20z5159&amp;Param=671" 
+        target=_blank>服务人员</A> ... </LI></UL></DIV>
+      <DIV id=bbx02 style="DISPLAY: none">
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRjgwrhj6l7z8765" 
+        target=_blank>科智公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRjgwrhj6l7z8765&amp;Param=524" 
+        target=_blank>品牌服装店销售</A> <A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRjgwrhj6l7z8765&amp;Param=726" 
+        target=_blank>赴新加坡注塑模具</A> ... </LI></UL>
+      <UL class=bbx01_m>
+        <LI><IMG height=8 
+        src="Images/mainpage/ind_06.gif" width=8><A 
+
+        href="http://www.xjp-job.com/Company/Info/Com_View.asp?Param=VRcp7sqzdelg6822" 
+        target=_blank>辽宁精英网络管理信息系统有限公司</A> 
+        <LI class=pos><A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRcp7sqzdelg6822&amp;Param=774" 
+        target=_blank>新加坡、阿联酋、澳门销售代表、文</A> <A 
+        href="http://www.xjp-job.com/Company/Info/Com_Job.asp?Comid=VRcp7sqzdelg6822&amp;Param=513" 
+        target=_blank></A>... </LI></UL></DIV>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD height=5></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="98%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD></TD></TR>
+        <TR>
+          <TD align=right height=24><A class=STYLE6 
+            href="http://www.xjp-job.com/Person/Per_Search_New.asp" 
+            target=_blank>&gt;&gt; 更多招聘职位 </A><A 
+            href="http://www.xjp-job.com/Person/Per_Search_New.asp"></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><!---left4--->
+<DIV class=left4><!---标题--->
+<DIV 
+style="PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px">
+<DIV class=left4_t><SPAN style="PADDING-LEFT: 7px; FLOAT: left"><A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=50" target=_blank>劳务政策</A> 
+| <A href="http://www.xjp-job.com/Info/Work_More.asp?Param=51" 
+target=_blank>劳务法规</A></SPAN> <SPAN style="PADDING-RIGHT: 7px; FLOAT: right"><A 
+href="http://www.xjp-job.com/#">更多&gt;&gt;</A></SPAN> </DIV></DIV>
+<DIV class=left4_m><IMG 
+src="Images/mainpage/zhengce.jpg"> 
+<LI><A href="http://www.xjp-job.com/#">劳务政策</A> </LI></DIV>
+<DIV class=left4_m2>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/5020081027225716.html" 
+  target=_blank>放宽引进外籍劳务人员政策 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/502008719165833.html" 
+  target=_blank>关于就业准证 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/502008719165414.html" 
+  target=_blank>新加坡的个人所得税 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/5020081027225736.html" 
+  target=_blank>狮城劳务问答 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/50200810272399.html" 
+  target=_blank>狮城就业注意与须知 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/502008712175339.html" 
+  target=_blank>《外国工人雇佣法案》主要修订内容 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/502008712175316.html" 
+  target=_blank>新加坡：个税税率最低国家之一 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/502008712175249.html" 
+  target=_blank>新加坡职业介绍所记分制将放宽 </A></LI></UL></DIV>
+<DIV class=left4_m2>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/512008719171154.html" 
+  target=_blank>赴新加坡劳务招聘程序（参考） </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/5120081027225858.html" 
+  target=_blank>工作准证的申请 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/512008712181831.html" 
+  target=_blank>新加坡劳务问答 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/51200810272302.html" 
+  target=_blank>外国人工作证件介绍 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/512008102723015.html" 
+  target=_blank>劳务输出合同主要条款内容 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/51200810272309.html" 
+  target=_blank>建筑劳务考试制度 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/512008102723034.html" 
+  target=_blank>出入境管理规定 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/512008102723040.html" 
+  target=_blank>劳务出国前准备 </A></LI></UL></DIV></DIV>
+<DIV class=left4><!---标题--->
+<DIV 
+style="PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px">
+<DIV class=left4_t><SPAN style="PADDING-LEFT: 7px; FLOAT: left"><A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=49" 
+target=_blank>新加坡人力市场</A> | <A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=48" target=_blank>就业体验</A> 
+</SPAN><SPAN style="PADDING-RIGHT: 7px; FLOAT: right"><A 
+href="http://www.xjp-job.com/#">更多&gt;&gt;</A></SPAN> </DIV></DIV>
+<DIV class=left4_m><IMG src="Images/mainpage/renli.jpg"> 
+<LI><A href="http://www.xjp-job.com/#">人力市场</A> </LI></DIV>
+<DIV class=left4_m2>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/4920081027225655.html" 
+  target=_blank>狮城酒店如何开发人力资源 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4920081027225835.html" 
+  target=_blank>狮城人力市场和主要雇主（二） </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4920081027225846.html" 
+  target=_blank>狮城人力市场和主要雇主（一） </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/492008102723853.html" 
+  target=_blank>十大行业急需人才 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4920081027225910.html" 
+  target=_blank>人才新流向 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/49200810272394.html" 
+  target=_blank>狮城就业概况 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/492008102723913.html" 
+  target=_blank>狮城就业前景良好 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/492008102723020.html" 
+  target=_blank>十大行业急需人才 </A></LI></UL></DIV>
+<DIV class=left4_m2>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/482008102723117.html" 
+  target=_blank>北京姑娘狮城创业记 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/482008102723112.html" 
+  target=_blank>北京姑娘狮城创业记 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/482008712174536.html" 
+  target=_blank>四川新移民新加坡创业开印务馆 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/482008102723418.html" 
+  target=_blank>餐饮业营业收入高 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/48200810272349.html" 
+  target=_blank>明年推“个人化就业准证” </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/482008102723413.html" 
+  target=_blank>华语导游成热门 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4820081027231043.html" 
+  target=_blank>狮城的中国白领现象 </A></LI></UL></DIV></DIV>
+<DIV class=left4><!---标题--->
+<DIV 
+style="PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px">
+<DIV class=left4_t><SPAN style="PADDING-LEFT: 7px; FLOAT: left"><A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=47" 
+target=_blank>新加坡概述</A> | <A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=42" 
+target=_blank>“吃”在狮城</A> | <A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=43" 
+target=_blank>“住”在狮城</A> | <A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=44" 
+target=_blank>“玩”在狮城</A> | <A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=45" 
+target=_blank>“行”在狮城</A> | <A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=46" 
+target=_blank>节日、人文风情</A> </SPAN><SPAN 
+style="PADDING-RIGHT: 7px; FLOAT: right"><A 
+href="http://www.xjp-job.com/#">更多&gt;&gt;</A></SPAN> </DIV></DIV>
+<DIV class=left4_m><IMG 
+src="Images/mainpage/wanshua.jpg"> 
+<LI><A href="http://www.xjp-job.com/#">新加坡概述</A> </LI></DIV>
+<DIV class=left4_m2>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/4720081027225947.html" 
+  target=_blank>政治概述 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4720081027225954.html" 
+  target=_blank>宗教文化 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/472008712163539.html" 
+  target=_blank>新加坡新亮点、新惊喜 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/472008712163455.html" 
+  target=_blank>鱼尾狮塑像FAQ </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/47200871216332.html" 
+  target=_blank>鱼尾狮的位置 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/472008712163225.html" 
+  target=_blank>关于鱼尾狮 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/472008712162742.html" 
+  target=_blank>新加坡气候 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/47200871216273.html" 
+  target=_blank>人口、语言、宗教 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/472008712162347.html" 
+  target=_blank>历时简介 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/472008712162836.html" 
+  target=_blank>今日新加坡 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/47200871216238.html" 
+  target=_blank>新加坡知多少 </A></LI></UL></DIV>
+<DIV class=left4_m2>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/462008712155831.html" 
+  target=_blank>新达城财富之泉飞金溅玉 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155858.html" 
+  target=_blank>春节还未到 喜气已袭人 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155918.html" 
+  target=_blank>金龙出海春到河畔 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155743.html" 
+  target=_blank>小印度色香味一条街 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155756.html" 
+  target=_blank>屠妖节逛小印度 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155813.html" 
+  target=_blank>40万人乌节路上同声倒数 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155631.html" 
+  target=_blank>开斋佳节到 回教堂祈祷忙 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155658.html" 
+  target=_blank>兴都教徒庆大宝森节 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155718.html" 
+  target=_blank>兴都教徒欢庆大宝森节 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155614.html" 
+  target=_blank>开斋节灯饰亮了 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/462008712155441.html" 
+  target=_blank>向祖国敬礼 </A></LI></UL></DIV></DIV>
+<DIV class=left4><!---标题--->
+<DIV>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=f101 id=fl01 onmouseover=fsecBoard(1); align=middle width=89 
+    height=26>职业指导</TD>
+    <TD align=middle width=2><IMG height=2 
+      src="Images/Index/icon22.gif" width=2></TD>
+    <TD class=f102 id=fl02 onmouseover=fsecBoard(2); align=middle 
+    width=89>HR资讯</TD>
+    <TD width=2><IMG height=2 
+      src="Images/Index/icon22.gif" width=2></TD>
+    <TD class=f102 id=fl03 onmouseover=fsecBoard(3); align=middle 
+    width=89>培训资讯</TD>
+    <TD width=2><IMG height=2 
+      src="Images/Index/icon22.gif" width=2></TD>
+    <TD class=f102 id=fl04 onmouseover=fsecBoard(4); align=middle 
+    width=89>就业指导</TD>
+    <TD>　</TD></TR></TBODY></TABLE></TD></TR><TR><TD bgcolor="#1574b4" 
+height="2"></TD></TR></TABLE></TD></TR><TR><TD 
+style="BORDER-RIGHT: #bbdcef 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #bbdcef 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #bbdcef 1px solid">
+<DIV id=fbx01>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ebebeb border=0>
+  <TBODY>
+  <TR>
+    <TD style="PADDING-LEFT: 5px; PADDING-TOP: 2px" height=22><A 
+      href="http://www.xjp-job.com/Info/Work_More.asp?Param=10" 
+      target=_blank>简历指导</A> | <A 
+      href="http://www.xjp-job.com/Info/Work_More.asp?Param=11" 
+      target=_blank>面试技巧</A> | <A 
+      href="http://www.xjp-job.com/Info/Work_More.asp?Param=8" 
+      target=_blank>求职实录</A> | <A 
+      href="http://www.xjp-job.com/Info/Work_More.asp?Param=7" 
+      target=_blank>职场眺望</A></TD>
+    <TD style="PADDING-RIGHT: 5px; PADDING-TOP: 2px" align=right width=100><A 
+      href="http://www.xjp-job.com/Info/Work.asp" 
+  target=_blank>更多&gt;&gt;</A></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD height=2></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="33%">
+      <TABLE cellSpacing=0 cellPadding=0 width="96%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=2 height=5></TD></TR>
+        <TR>
+          <TD colSpan=2 height=20><A 
+            href="http://www.xjp-job.com/News/102007319101122.html" 
+            target=_blank><FONT 
+            color=#006699><B><U>网络招聘会拒绝“电子简历”</U></B></FONT></A></TD></TR>
+        <TR>
+          <TD width=80><IMG class=photoborder2 height=70 
+            src="Images/Train/per2.gif" width=70></TD>
+          <TD>“无锡市2006年毕业生夏季网络招聘会暨暑期兼职岗位信息发布会”正在举行。在20多家上网招才的知名企业中，出现了一个有趣 
+        </TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/8200731910659.html" 
+            target=_blank><FONT color=#333333>办公室面试礼仪</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/820073191061.html" 
+            target=_blank><FONT color=#333333>求职面试怎样包装形象 </FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/8200731910522.html" 
+            target=_blank><FONT color=#333333>面试：准备工作马虎不得</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/82007313214149.html" 
+            target=_blank><FONT color=#333333>大学生面试的十大“常见问题”</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/820073994241.html" 
+            target=_blank><FONT color=#333333>面试抓住最初三分钟至关重要</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/8200735222910.html" 
+            target=_blank><FONT 
+      color=#333333>求职信应避免学生腔</FONT></A></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/11200731910858.html" 
+            target=_blank><FONT color=#333333>应该怎样结束面试谈话？</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1120073522213.html" 
+            target=_blank><FONT color=#333333>逆向思维简历令你与众不同 </FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/11200731171432.html" 
+            target=_blank><FONT color=#333333>三步骤让你获得招聘方的“青睐”</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/112007123152143.html" 
+            target=_blank><FONT color=#333333>六大跨国公司的特殊招聘法则</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/11200711791437.html" 
+            target=_blank><FONT color=#333333>英语面试技巧 事先3项准备</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/11200711791317.html" 
+            target=_blank><FONT 
+      color=#333333>办公室面试礼仪</FONT></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV id=fbx02 style="DISPLAY: none">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ebebeb border=0>
+  <TBODY>
+  <TR>
+    <TD style="PADDING-LEFT: 5px; PADDING-TOP: 2px" height=22><A 
+      href="http://www.xjp-job.com/Info/Index_More.asp?Param=28" 
+      target=_blank>人力管理</A> | <A 
+      href="http://www.xjp-job.com/Info/Index_More.asp?Param=29" 
+      target=_blank>招聘面试</A> | <A 
+      href="http://www.xjp-job.com/Info/Index_More.asp?Param=14" 
+      target=_blank>管理激励</A> | <A 
+      href="http://www.xjp-job.com/Info/Index_More.asp?Param=15" 
+      target=_blank>业绩考核</A> | <A 
+      href="http://www.xjp-job.com/Info/Index_More.asp?Param=16" 
+      target=_blank>薪酬福利</A> | <A 
+      href="http://www.xjp-job.com/Info/Index_More.asp?Param=17" 
+      target=_blank>法律常识</A></TD>
+    <TD style="PADDING-RIGHT: 5px; PADDING-TOP: 2px" align=right width=100><A 
+      href="http://www.xjp-job.com/Info/Index.asp" 
+    target=_blank>更多&gt;&gt;</A></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD height=2></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="33%">
+      <TABLE cellSpacing=0 cellPadding=0 width="96%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=2 height=5></TD></TR>
+        <TR>
+          <TD colSpan=2 height=20><A 
+            href="http://www.xjp-job.com/News/282007417105620.html" 
+            target=_blank><FONT 
+            color=#006699><B><U>职场十大自我“修炼”工具</U></B></FONT></A></TD></TR>
+        <TR>
+          <TD width=80><IMG class=photoborder2 height=70 
+            src="Images/Train/per2.gif" width=70></TD>
+          <TD>要想带领你的团队打胜仗，要想在激烈人才的竞争中胜出，你必须有一身好武功。你是在管理上也好，在专业领域上也好，或者在整合资 
+        </TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1420073795553.html" 
+            target=_blank><FONT color=#333333>HCV：激励最合适的人</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/14200735222143.html" 
+            target=_blank><FONT color=#333333>一流简历要避免的8大错误 </FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1420073522190.html" 
+            target=_blank><FONT color=#333333>面试后五大疑问解答</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1420073117957.html" 
+            target=_blank><FONT color=#333333>不提高薪酬激励员工的15种方法</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1420073117108.html" 
+            target=_blank><FONT 
+      color=#333333>破解企业激励的顽症</FONT></A></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1620073199135.html" 
+            target=_blank><FONT color=#333333>试用期间员工也可享受社保</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1620073199856.html" 
+            target=_blank><FONT color=#333333>月收入5千至7千最幸福 </FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1620073995229.html" 
+            target=_blank><FONT color=#333333>快递公司月薪3000招大学生送货</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1620073795332.html" 
+            target=_blank><FONT color=#333333>薪酬的演变和发展及基本理论</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/1620073795412.html" 
+            target=_blank><FONT color=#333333>高底薪“激效”胜过高奖金</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/16200735224053.html" 
+            target=_blank><FONT 
+        color=#333333>BMCC：福利的溢出效应</FONT></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV id=fbx03 style="DISPLAY: none">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ebebeb border=0>
+  <TBODY>
+  <TR>
+    <TD style="PADDING-LEFT: 5px; PADDING-TOP: 2px" height=22><A 
+      href="http://www.xjp-job.com/Info/Train_More.asp?Param=30" 
+      target=_blank>企业管理</A> | <A 
+      href="http://www.xjp-job.com/Info/Train_More.asp?Param=31" 
+      target=_blank>资格认证</A> | <A 
+      href="http://www.xjp-job.com/Info/Train_More.asp?Param=32" 
+      target=_blank>学历招生</A> | <A 
+      href="http://www.xjp-job.com/Info/Train_More.asp?Param=33" 
+      target=_blank>IT培训</A> | <A 
+      href="http://www.xjp-job.com/Info/Train_More.asp?Param=34" 
+      target=_blank>职业技能</A> | <A 
+      href="http://www.xjp-job.com/Info/Train_More.asp?Param=35" 
+      target=_blank>语言培训</A> | <A 
+      href="http://www.xjp-job.com/Info/Train_More.asp?Param=36" 
+      target=_blank>公共课程</A> | <A 
+      href="http://www.xjp-job.com/Info/Train_More.asp?Param=37" 
+      target=_blank>才艺健身</A></TD>
+    <TD style="PADDING-RIGHT: 5px; PADDING-TOP: 2px" align=right width=100><A 
+      href="http://www.xjp-job.com/Info/Train.asp" 
+    target=_blank>更多&gt;&gt;</A></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD height=2></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="33%">
+      <TABLE cellSpacing=0 cellPadding=0 width="96%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=2 height=5></TD></TR>
+        <TR>
+          <TD colSpan=2 height=20><A 
+            href="http://www.xjp-job.com/News/3020073795513.html" 
+            target=_blank><FONT color=#006699><B><U>提员工团队精神 
+            铸企业文化之魂</U></B></FONT></A></TD></TR>
+        <TR>
+          <TD width=80><IMG class=photoborder2 height=70 
+            src="Images/Train/per2.gif" width=70></TD>
+          <TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21世纪，将是一个团队至上的时代。所有事业都将是团队事业。 
+        </TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/4200712004135.html" 
+            target=_blank><FONT 
+        color=#333333>菲利普-科特勒：互联网没有改变营销的本质</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/4200712004150.html" 
+            target=_blank><FONT color=#333333>雅虎中国的 新出路</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/4200712004158.html" 
+            target=_blank><FONT color=#333333>雅虎是否就此滑落　详解近期的收购和新战略 
+        </FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/4200712004240.html" 
+            target=_blank><FONT 
+color=#333333>动荡的2006网络招聘市场　风雨欲来</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/4200712004358.html" 
+            target=_blank><FONT 
+        color=#333333>MSN高层：互联网公司只需足够而非最好的</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/4200712004429.html" 
+            target=_blank><FONT color=#333333>虚拟商街比现实更“贴心” 
+        带来商业利润和</FONT></A></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/32007131113624.html" 
+            target=_blank><FONT color=#333333>网络影响未来十大预言 宽带时代到来</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/32007131113516.html" 
+            target=_blank><FONT color=#333333>互联网最大机会 在中国 
+蕴含巨大商机</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/32007131113124.html" 
+            target=_blank><FONT color=#333333>预言互联网将“颠覆”电视的启示 </FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/32007131112932.html" 
+            target=_blank><FONT color=#333333>调查：网络招聘新增职位突破800万</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/3200712514323.html" 
+            target=_blank><FONT color=#333333>06年美国风投总额创五年新高 
+        Web2.</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/32007125143115.html" 
+            target=_blank><FONT color=#333333>2007年网络十大预言 
+        网络广告效用超电</FONT></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV id=fbx04 style="DISPLAY: none">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ebebeb border=0>
+  <TBODY>
+  <TR>
+    <TD style="PADDING-LEFT: 5px; PADDING-TOP: 2px" height=22><A 
+      href="http://www.xjp-job.com/Info/Employment_More.asp?Param=38" 
+      target=_blank>初入职场</A> | <A 
+      href="http://www.xjp-job.com/Info/Employment_More.asp?Param=39" 
+      target=_blank>简历设计</A> | <A 
+      href="http://www.xjp-job.com/Info/Employment_More.asp?Param=40" 
+      target=_blank>求职案例</A> | <A 
+      href="http://www.xjp-job.com/Info/Employment_More.asp?Param=41" 
+      target=_blank>面试宝典</A></TD>
+    <TD style="PADDING-RIGHT: 5px; PADDING-TOP: 2px" align=right width=100><A 
+      href="http://www.xjp-job.com/Info/Employment.asp" 
+      target=_blank>更多&gt;&gt;</A></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD height=2></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="33%">
+      <TABLE cellSpacing=0 cellPadding=0 width="96%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD colSpan=2 height=5></TD></TR>
+        <TR>
+          <TD colSpan=2 height=20><A 
+            href="http://www.xjp-job.com/News/3200722785418.html" 
+            target=_blank><FONT 
+            color=#006699><B><U>＂傻瓜式＂市场营销的十个技巧</U></B></FONT></A></TD></TR>
+        <TR>
+          <TD width=80><IMG class=photoborder2 height=70 
+            src="Images/Train/per2.gif" width=70></TD>
+          <TD>译者注：geek可以理解为对技术沉迷，在其他方面有点呆呆的人，但是这里为了行文的需要，简单的以‘傻瓜’代替。 
+            <P></P></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/320073910536.html" 
+            target=_blank><FONT color=#333333>昆明社保局：三八节加班发三倍工资</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/320073994343.html" 
+            target=_blank><FONT color=#333333>女大学生招聘会六 
+千人抢793个岗位</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/320073795857.html" 
+            target=_blank><FONT color=#333333>影响中国CEO的五大新兴行业：新互联网居 
+        </FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/320073795647.html" 
+            target=_blank><FONT color=#333333>2007年全球薪酬向上看</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/220073794843.html" 
+            target=_blank><FONT color=#333333>"金三"才市火爆开锣</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/42007379479.html" 
+            target=_blank><FONT color=#333333>学历越高压力越大 
+        就业优势不明显</FONT></A></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/3200735224637.html" 
+            target=_blank><FONT color=#333333>我们的网络世界还缺什么</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/3200735224544.html" 
+            target=_blank><FONT color=#333333>全球互联网用户将达13.5亿 </FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/3200734104325.html" 
+            target=_blank><FONT color=#333333>中国的人才标准是什么？</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/3200734103829.html" 
+            target=_blank><FONT 
+color=#333333>互联网协会秘书长：应用须突破两大瓶颈</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/3200734103710.html" 
+            target=_blank><FONT color=#333333>开春人才需求大 营销人才仍然最抢手</FONT></A></TD></TR>
+        <TR vAlign=center>
+          <TD height=22><IMG 
+            src="Images/Info/icon11.gif"> <A 
+            href="http://www.xjp-job.com/News/3200734103346.html" 
+            target=_blank><FONT 
+        color=#333333>经验总结：网站推广的20个策略</FONT></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></TD></TR></TABLE></DIV></DIV><!---/left4---></DIV><!---/left---><!---right--->
+<DIV id=right>
+<DIV style="WIDTH: 195px"><A 
+href="http://www.xjp-job.com/Person/Register.asp"><IMG height=130 
+src="Images/banna/small-banna.jpg" width=195 
+border=0></A> </DIV>
+<DIV class=r_main2>
+<DIV class=r_main_tt><A href="http://www.xjp-job.com/#">个人求职</A></DIV>
+<DIV class=r_qz style="PADDING-LEFT: 9px">
+<UL>
+  <LI><A 
+  href="http://www.xjp-job.com/Person/Per_Resume.asp?Param=e7j3toexal3359" 
+  target=_blank><FONT color=#af3a25>陈鹰</FONT></A> </LI>
+  <LI>30岁 </LI>
+  <LI>北京市 </LI></UL></DIV><TR><TD height="1" 
+background="Images/Index/line1_1.gif" align="center" 
+colspan="3"></TD></TR>
+<DIV class=r_qz style="PADDING-LEFT: 9px">
+<UL>
+  <LI><A 
+  href="http://www.xjp-job.com/Person/Per_Resume.asp?Param=9ha6m1vtnb8740" 
+  target=_blank><FONT color=#af3a25>林诚娟</FONT></A> </LI>
+  <LI>25岁 </LI>
+  <LI>福州 </LI></UL></DIV><TR><TD height="1" 
+background="Images/Index/line1_1.gif" align="center" 
+colspan="3"></TD></TR>
+<DIV class=r_qz style="PADDING-LEFT: 9px">
+<UL>
+  <LI><A 
+  href="http://www.xjp-job.com/Person/Per_Resume.asp?Param=zop0v6y4xt1712" 
+  target=_blank><FONT color=#af3a25>孙杰</FONT></A> </LI>
+  <LI>30岁 </LI>
+  <LI>上海市 </LI></UL></DIV><TR><TD height="1" 
+background="Images/Index/line1_1.gif" align="center" 
+colspan="3"></TD></TR>
+<DIV class=r_qz style="PADDING-LEFT: 9px">
+<UL>
+  <LI><A 
+  href="http://www.xjp-job.com/Person/Per_Resume.asp?Param=9adiswbk4r1482" 
+  target=_blank><FONT color=#af3a25>童超</FONT></A> </LI>
+  <LI>24岁 </LI>
+  <LI>苏州 </LI></UL></DIV><TR><TD height="1" 
+background="Images/Index/line1_1.gif" align="center" 
+colspan="3"></TD></TR>
+<DIV class=r_qz style="PADDING-LEFT: 9px">
+<UL>
+  <LI><A 
+  href="http://www.xjp-job.com/Person/Per_Resume.asp?Param=kxuve4hcyr8529" 
+  target=_blank><FONT color=#af3a25>陈建新</FONT></A> </LI>
+  <LI>27岁 </LI>
+  <LI>莆田 </LI></UL></DIV><TR><TD height="1" 
+background="Images/Index/line1_1.gif" align="center" 
+colspan="3"></TD></TR>
+<DIV class=r_qz style="PADDING-LEFT: 9px">
+<UL>
+  <LI><A 
+  href="http://www.xjp-job.com/Person/Per_Resume.asp?Param=0fu5o43snh1774" 
+  target=_blank><FONT color=#af3a25>好几个</FONT></A> </LI>
+  <LI>21岁 </LI>
+  <LI>太原 </LI></UL></DIV><TR><TD height="1" 
+background="Images/Index/line1_1.gif" align="center" 
+colspan="3"></TD></TR>
+<DIV class=r_qz style="PADDING-LEFT: 9px">
+<UL>
+  <LI><A 
+  href="http://www.xjp-job.com/Person/Per_Resume.asp?Param=c803fwk5ge8053" 
+  target=_blank><FONT color=#af3a25>吴兆斌</FONT></A> </LI>
+  <LI>32岁 </LI>
+  <LI></LI></UL></DIV><TR><TD height="1" 
+background="Images/Index/line1_1.gif" align="center" 
+colspan="3"></TD></TR>
+<DIV class=r_qz style="PADDING-LEFT: 9px">
+<UL>
+  <LI><A 
+  href="http://www.xjp-job.com/Person/Per_Resume.asp?Param=6pnvxv5lj44381" 
+  target=_blank><FONT color=#af3a25>李建剛</FONT></A> </LI>
+  <LI>27岁 </LI>
+  <LI>深圳 </LI></UL></DIV><TR><TD height="1" 
+background="Images/Index/line1_1.gif" align="center" 
+colspan="3"></TD></TR></DIV>
+<DIV class=r_main>
+<DIV class=r_main_tt><A 
+href="http://www.xjp-job.com/Info/Work_More.asp?Param=48" 
+target=_blank>就业体验</A></DIV>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/482008102723117.html" 
+  target=_blank>北京姑娘狮城创业记 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/482008102723112.html" 
+  target=_blank>北京姑娘狮城创业记 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/482008712174536.html" 
+  target=_blank>四川新移民新加坡创业开印 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/482008102723418.html" 
+  target=_blank>餐饮业营业收入高 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/48200810272349.html" 
+  target=_blank>明年推“个人化就业准证” </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/482008102723413.html" 
+  target=_blank>华语导游成热门 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4820081027231043.html" 
+  target=_blank>狮城的中国白领现象 </A></LI></UL></DIV>
+<DIV class=r_main>
+<DIV class=r_main_t><A href="http://www.xjp-job.com/Info/Work_More.asp?Param=48" 
+target=_blank>人力市场</A></DIV>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/4920081027225655.html" 
+  target=_blank>狮城酒店如何开发人力资源 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4920081027225835.html" 
+  target=_blank>狮城人力市场和主要雇主（ </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4920081027225846.html" 
+  target=_blank>狮城人力市场和主要雇主（ </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/492008102723853.html" 
+  target=_blank>十大行业急需人才 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/4920081027225910.html" 
+  target=_blank>人才新流向 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/49200810272394.html" 
+  target=_blank>狮城就业概况 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/492008102723913.html" 
+  target=_blank>狮城就业前景良好 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/492008102723020.html" 
+  target=_blank>十大行业急需人才 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/492008712181349.html" 
+  target=_blank>新加坡薪酬与福利 </A></LI>
+  <LI><A href="http://www.xjp-job.com/News/492008102723125.html" 
+  target=_blank>国际人才新动向 </A></LI></UL></DIV>
+<DIV class=r_main><A href="http://www.xjp-job.com/Company/Register.asp"><IMG 
+height=227 src="Images/banna/foremploy.jpg" width=195 
+border=0></A> </DIV>
+<DIV class=r_main>
+<DIV class=r_main_t><A href="http://www.xjp-job.com/#">专题报道</A></DIV>
+<UL>
+  <LI><A href="http://www.xjp-job.com/News/422008712154242.html" 
+  target=_blank><FONT color=#333333>3场美食会尽在飞禽公园</FONT></A> </LI>
+  <LI><A href="http://www.xjp-job.com/News/422008712154138.html" 
+  target=_blank><FONT color=#333333>荷兰村开放而隐秘</FONT></A> </LI>
+  <LI><A href="http://www.xjp-job.com/News/422008712154158.html" 
+  target=_blank><FONT color=#333333>昔日街边小贩文物展</FONT></A> </LI>
+  <LI><A href="http://www.xjp-job.com/News/422008712154220.html" 
+  target=_blank><FONT color=#333333>美食节热腾腾开席</FONT></A> </LI>
+  <LI><A href="http://www.xjp-job.com/News/422008712154057.html" 
+  target=_blank><FONT color=#333333>牛车水美食街再见老字号</FONT></A> </LI>
+  <LI><A href="http://www.xjp-job.com/News/422008712154117.html" 
+  target=_blank><FONT color=#333333>牛车水美食街开张营业</FONT></A> </LI>
+  <LI><A href="http://www.xjp-job.com/News/422008712153937.html" 
+  target=_blank><FONT color=#333333>美食节轻松学习烹饪</FONT></A> </LI></UL></DIV><!-- 
+   <div class="r_main">
+    <div class="r_main_t"><a href="#">学历招生</a></div>
+    <ul>
+	
+	<li><a href="#">代码联盟货源人法地时刻</a></li>
+	<li><a href="#">代码联盟货源人法地时刻</a></li>
+	 
+    </ul>
+   </div>
+   --><!-- 
+   <div class="r_main">
+    <div class="r_main_t"><a href="#">专题报道</a></div>
+    <ul><li><a href="#">代码联盟货源人法地时刻</a></li>
+    </ul>
+   </div>
+   
+--><!--   
+   <div class="r_main">
+    <div class="r_main_t">
+	
+	<a href="#">学历招生</a></div>
+    <ul>
+	
+ 		<li>  <a href="http://www.xjp-job.com/admin/web_login.asp">----</a>    </li>
+	
+	</ul>
+   </div>
+   
+  --></DIV></DIV><!---/main---><!---footer--->
+<DIV id=footer>
+<DL>
+  <DD><SPAN style="FLOAT: left; MARGIN-LEFT: 150px"></SPAN><SPAN 
+  style="FLOAT: left"><A href="http://www.xjp-job.com/Public/About.asp">关于我们</A> 
+  | <A href="http://www.xjp-job.com/Public/Statement.asp">网站声明</A> | <A 
+  href="http://www.xjp-job.com/Public/Service.asp">服务专区</A> | <A 
+  href="http://www.xjp-job.com/Public/Feedback.asp">用户反馈</A> | <A 
+  href="http://www.xjp-job.com/Public/Friend.asp">合作伙伴</A> | <A 
+  href="http://www.xjp-job.com/Public/Link.asp">友情链接</A> | <A 
+  href="http://www.xjp-job.com/Public/Contact.asp">联系我们</A> <BR><BR>
+  <A 
+  href="http://www.xjp-job.com/admin/web_login.asp" 
+  target=_blank>Copyright(C)</A><FONT color=#666666> 2006 - 2008 xjp-job.com All Rights Reserved  </FONT>
+  <SPAN 
+  class=STYLE7></SPAN><BR> 
+  <SCRIPT>document.write("<scr"+"ipt language=\"javascript\" charset=\"utf-8\" src=\"http://www.918kf.com/Manage/Setup_Code.aspx?arg=534737&style=1&keyword="+escape(document.referrer)+"\"></scr"+"ipt>");</SCRIPT>
+
+  <BR><A 
+  href="http://www.xjp-job.com/"><FONT color=#666666>新加坡劳务网版权所有</FONT></A>  <A 
+  href="http://www.miibeian.gov.cn/" target=_blank><FONT 
+  color=#666666>ICP备0220870118号</FONT></A>
+   <br />   <br />
+  </SPAN><SPAN 
+style="FLOAT: left"></SPAN></DD></DL></DIV><!---/footer---></DIV></BODY></HTML>
+

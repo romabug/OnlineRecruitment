@@ -1,0 +1,99 @@
+TD {
+	FONT-SIZE: 12px; COLOR: #023087; LINE-HEIGHT: 170%
+}
+BODY {
+	MARGIN: 0px
+}
+OPTION {
+	FONT-SIZE: 12px; COLOR: #023087; LINE-HEIGHT: 170%
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #023087; LINE-HEIGHT: 170%
+}
+TEXTAREA {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; COLOR: #023087; LINE-HEIGHT: 170%; PADDING-TOP: 3px
+}
+.Menu1Position {
+	FONT-SIZE: 12px; COLOR: #ffffff; PADDING-TOP: 5px
+}
+.menu2position {
+	FONT-SIZE: 12px; COLOR: #023087; PADDING-TOP: 3px
+}
+.inputstyle {
+	BORDER-RIGHT: #d0e1f9 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #4f76bf 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: #4f76bf 1px solid; COLOR: #023087; PADDING-TOP: 2px; BORDER-BOTTOM: #d0e1f9 1px solid
+}
+.lanmupadding {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-TOP: 8px
+}
+A:link {
+	COLOR: #023087; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #023087; TEXT-DECORATION: none
+}
+A.menu:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu2:link {
+	COLOR: #023087; TEXT-DECORATION: none
+}
+A.menu2:visited {
+	COLOR: #023087; TEXT-DECORATION: none
+}
+.articletitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.articletitle1 {
+	FONT-WEIGHT: bold; COLOR: #0099ff
+}
+A.JobseekerMenu:link {
+	COLOR: #023087; TEXT-DECORATION: none
+}
+A.JobseekerMenu:visited {
+	COLOR: #023087; TEXT-DECORATION: none
+}
+A.JobseekerMenu1:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.JobseekerMenu1:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.buttonimagesstyle {
+	PADDING-RIGHT: 0px; PADDING-TOP: 1px
+}
+.buttonstyle {
+	BORDER-RIGHT: #2b74b7 1px solid; BORDER-TOP: #d0e1f9 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #d0e1f9 1px solid; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #2b74b7 1px solid; HEIGHT: 21px; BACKGROUND-COLOR: #4e95d6
+}
+.tit {
+	PADDING-LEFT: 6px; BORDER-BOTTOM: #d0e1f9 1px solid
+}
+FIELDSET {
+	BORDER-RIGHT: #e3edff 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #e3edff 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #e3edff 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #e3edff 1px solid
+}
+FIELDSET {
+	FONT-SIZE: 12px; COLOR: #023087
+}
+.TAG1 {
+	BORDER-RIGHT: #88aadf 1px solid; BORDER-TOP: #ffffff 1px solid; DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 12px; FLOAT: left; BORDER-LEFT: #ffffff 1px solid; WIDTH: 78px; LINE-HEIGHT: normal; BORDER-BOTTOM: 0px solid; FONT-STYLE: normal; POSITION: relative; TOP: 2px; HEIGHT: 18px; BACKGROUND-COLOR: #d8e7ff; FONT-VARIANT: normal
+}
+.TAG2 {
+	BORDER-RIGHT: #88aadf 1px solid; BACKGROUND-POSITION: left top; BORDER-TOP: #ffffff 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; Z-INDEX: 3; BORDER-LEFT: #ffffff 1px solid; WIDTH: 79px; LINE-HEIGHT: normal; BORDER-BOTTOM: 0px solid; BACKGROUND-REPEAT: no-repeat; FONT-STYLE: normal; POSITION: relative; TOP: 1px; HEIGHT: 21px; BACKGROUND-COLOR: #d8e7ff; FONT-VARIANT: normal
+}
+.TAG3 {
+	BORDER-RIGHT: #88aadf 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #88aadf; PADDING-LEFT: 9px; PADDING-BOTTOM: 9px; BORDER-LEFT: #ffffff 1px solid; PADDING-TOP: 9px; BORDER-BOTTOM: #88aadf 1px solid; HEIGHT: 100%; BACKGROUND-COLOR: #d8e7ff; align: center; valign: top
+}
+.TAG4 {
+	BORDER-RIGHT: #88aadf 1px solid; WIDTH: 79px; HEIGHT: 1px; BACKGROUND-COLOR: #ffffff
+}
+.TAG5 {
+	BORDER-RIGHT: #88aadf 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 80px; HEIGHT: 1px; BACKGROUND-COLOR: #d8e7ff
+}
+.resumeTopLeft {
+	BORDER-TOP: #cedfff 1px solid; BORDER-LEFT: #cedfff 1px solid
+}
+.resumeRightBottom {
+	BORDER-RIGHT: #cedfff 1px solid; BORDER-BOTTOM: #cedfff 1px solid
+}
